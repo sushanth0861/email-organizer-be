@@ -3,6 +3,7 @@ import { Router } from 'express';
 
 const router = Router();
 
+
 // Route for user registration
 // router.post('/register', registerUser);
 
