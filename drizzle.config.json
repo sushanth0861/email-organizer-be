@@ -1,0 +1,10 @@
+{
+    "schema": "./models/schema.ts",
+    "out": "./models/db/migrations",
+    "driver": "pg",
+    "dialect": "postgresql",
+    "dbCredentials": {
+      "connectionString": "${DATABASE_URL}"
+    }
+  }
+  
