@@ -10,7 +10,6 @@ const logger = (0, winston_1.createLogger)({
     })),
     transports: [
         new winston_1.transports.Console(),
-        new winston_1.transports.File({ filename: 'logs/server.log' })
     ],
 });
 exports.default = logger;
